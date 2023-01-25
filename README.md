@@ -7,7 +7,7 @@ To counteract this problem, I created a plugin for the online-survey platform Li
 
 
 ## Installation of the plugin
-To install the plugin, simply zip all the files in the folder "SurveyHunterProtection" and upload the zip-file in the LimeSurvey plugin back-end. It is then automatically activated and ready to use.
+To install the plugin, simply zip all the files in the folder "SurveyGuardian" and upload the zip-file in the LimeSurvey plugin back-end. It is then automatically activated and ready to use.
 
 
 ## Good to know
@@ -17,7 +17,7 @@ The plugin includes the <a href="https://github.com/fingerprintjs/BotD">Fingerpr
 If there are updates to version 1 the newest code will automatically be loaded. If there is a major update of FingerprintJs BotD, for example version 2, you can contact the plugin creator to notify to update the code. You can also update the code yourself in the file "checker.js" lines 208-232. 
 
 ### Extend the number of attention check questions
-If you want to delete, add or edit attention check questions, navigate to "SurveyHunterProtection > assets > attentionchecks.json". Create new entries in the same pattern.
+If you want to delete, add or edit attention check questions, navigate to "SurveyGuardian > assets > attentionchecks.json". Create new entries in the same pattern.
 
 
 ## License notice

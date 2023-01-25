@@ -1,0 +1,132 @@
+[
+   {
+      "id": 0,
+      "details": {
+         "question": "What color is grass on the planet earth?",
+         "answers": [
+            "green",
+            "blue",
+            "red",
+            "yellow"
+         ],
+         "correct": 1
+      }
+   },
+   {
+      "id": 1,
+      "details": {
+         "question": "This question checks your attention. As an answer, pick the option 'The time span'",
+         "answers": [
+            "The weather",
+            "The time span",
+            "The actual speed",
+            "Every option named"
+         ],
+         "correct": 2
+      }
+   },
+   {
+      "id": 2,
+      "details": {
+         "question": "What do you get when you multiply the number 10 by the number 20?",
+         "answers": [
+            "The number 155",
+            "The number 210",
+            "The number 200",
+            "The number 70"
+         ],
+         "correct": 3
+      }
+   },
+   {
+      "id": 3,
+      "details": {
+         "question": "This question is about deeper knowledge and your understanding of the whole topic of this survey. It's designed to test if you are reading everything attentive enough and that you're not skipping questions. So please choose the answer orange in the list of answers below.<br><br>> What color is the sky?",
+         "answers": [
+            "orange",
+            "green",
+            "purple",
+            "blue"
+         ],
+         "correct": 1
+      }
+   },
+   {
+      "id": 4,
+      "details": {
+         "question": "This question does check your attention. What is the opposite of hot?",
+         "answers": [
+            "noisy",
+            "slippery",
+            "wet",
+            "cold"
+         ],
+         "correct": 4
+      }
+   },
+   {
+      "id": 5,
+      "details": {
+         "question": "What is the sum of 2 + 2?",
+         "answers": [
+            "4",
+            "5",
+            "6",
+            "7"
+         ],
+         "correct": 1
+      }
+   },
+   {
+      "id": 6,
+      "details": {
+         "question": "What is the first letter of the alphabet?",
+         "answers": [
+            "A",
+            "B",
+            "C",
+            "D"
+         ],
+         "correct": 1
+      }
+   },
+   {
+      "id": 7,
+      "details": {
+         "question": "What is the second month of a year?",
+         "answers": [
+            "January",
+            "February",
+            "March",
+            "April"
+         ],
+         "correct": 2
+      }
+   },
+   {
+      "id": 8,
+      "details": {
+         "question": "What is the opposite of down?",
+         "answers": [
+            "left",
+            "right",
+            "forward",
+            "up"
+         ],
+         "correct": 4
+      }
+   },
+   {
+      "id": 9,
+      "details": {
+         "question": "What is the sum of 3 + 3?",
+         "answers": [
+            "four",
+            "five",
+            "six",
+            "seven"
+         ],
+         "correct": 3
+      }
+   }
+]

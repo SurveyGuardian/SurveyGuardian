@@ -5,8 +5,8 @@
         <type>plugin</type>
         <creationDate>2023-01-01</creationDate>
         <last_update>2023-01-01</last_update>
-        <author>Lukas Gruler</author>
-        <authorUrl>https://www.uni-ulm.de/</authorUrl>
+        <author>Mark Colley, Lukas Gruler, Enrico Rukzio</author>
+        <authorUrl>https://github.com/SurveyGuardian</authorUrl>
         <version>1.0.0</version>
         <license>GNU General Public License version 2 or later</license>
         <description><![CDATA[Tired of inattentive or malicious behaving participants filling out your surveys? This plugin is your solution. Updated frequently for best protection.]]></description>

@@ -158,7 +158,7 @@ class surveyGuardian extends PluginBase
                 'attention-checks'=>array(
                     'type'=>'checkbox',
                     'label'=>'Attention Checks',
-                    'help'=>'If you turn on attention checks, attention checking questions will be shown randomly in your survey to check the attention of the participant',
+                    'help'=>'If you turn on attention checks, attention checking questions will be shown randomly in your survey to check participant`s attention',
                     'current' => $this->get('attention-checks', 'Survey', $event->get('survey')),
                     'default' => 0,
                 ),
@@ -176,7 +176,7 @@ class surveyGuardian extends PluginBase
                 'bot-detection'=>array(
                     'type'=>'checkbox',
                     'label'=>'Malicious Behavior Detection',
-                    'help'=>'If you turn on malicious behavior detection, the system automatically checks the participants browser for any inhuman actions. <a target="_blank" href="https://github.com/fingerprintjs/BotD">More information about the tool FingerprintJS</a>.',
+                    'help'=>'If you turn on malicious behavior detection, the system automatically checks the participant`s browser for any inhuman actions. <a target="_blank" href="https://github.com/fingerprintjs/BotD">More information about the tool FingerprintJS</a>.',
                     'current' => $this->get('bot-detection', 'Survey', $event->get('survey')),
                     'default'=>0,
                 ),
@@ -187,7 +187,7 @@ class surveyGuardian extends PluginBase
                 'manual-id'=>array(
                     'type'=>'checkbox',
                     'label'=>'Use manual ID input by user',
-                    'help'=>'If activated a text input field is needed to let the users put in their ID as first input field of your whole survey!',
+                    'help'=>'If activated, a text input field is needed to let the users put in their ID as first input field of your whole survey!',
                     'current' => $this->get('manual-id', 'Survey', $event->get('survey')),
                     'default'=>0,
                 ),
@@ -198,7 +198,7 @@ class surveyGuardian extends PluginBase
                 'debug-mode'=>array(
                     'type'=>'checkbox',
                     'label'=>'Enable debug mode<br><span class="cl-warning">Only use for unpublished surveys</span>',
-                    'help'=>'If activated the plugin will show extended logging data in the browser console for debugging purposes. Do not use for public surveys.',
+                    'help'=>'If activated, the plugin will show extended logging data in the browser console for debugging purposes. Do not use for public surveys.',
                     'current' => $this->get('debug-mode', 'Survey', $event->get('survey')),
                     'default'=>0,
                 ),

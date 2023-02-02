@@ -27,7 +27,7 @@ affiliations:
 
 # Aims of the Package
 
-In applied research, user feedback in various forms is necessary, including employing online surveys. 
+In applied research, user feedback in various forms is necessary, including employing online surveys. To gather appropriate and valid data, researchers must ensure their data's origin and appropriateness. This is often achieved by, for example, including attention checks. However, checking these is time-consuming and error-prone. Therefore, [SurveyGuardian](https://github.com/SurveyGuardian/SurveyGuardian) provides an automated way to detect bots and inattentive participants.
 
 
 # Statement of Need

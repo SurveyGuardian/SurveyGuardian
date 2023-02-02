@@ -1,30 +1,3 @@
----
-title: "SurveyGuardian: Improving Online Surveys for Research by Detecting Inattentiveness and Undesirable Behavior"
-authors:
-- affiliation: 1
-  name: Mark Colley
-  orcid: 0000-0001-5207-5029
-- affiliation: 1
-  name: Lukas Gruler
-  orcid: 0000-0003-0142-4115
-- affiliation: 1
-  name: Enrico Rukzio
-  orcid: 0000-0002-4213-2226
-
-date: "28 January, 2023"
-output: 
-  pdf_document:
-    latex_engine: xelatex
-bibliography: bibliography.bib
-tags:
-- attention checks
-- bot detection
-- limesurvey
-affiliations:
-- index: 1
-  name: Ulm University, Germany
----
-
 
 # SurveyGuardian Plugin for LimeSurvey 
 

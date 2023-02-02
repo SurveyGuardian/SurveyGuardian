@@ -21,11 +21,11 @@ The survey participant can not recognize that the plugin or its features are act
 ## Good to know
 
 ### Updating the included Bot Detection Framework
-The plugin includes the <a href="https://github.com/fingerprintjs/BotD">FingerprintJS BotD framework</a> in version 1 (v1) for detecting bots.<br>
-If there are updates to version 1 the newest code will automatically be loaded. If there is a major update of FingerprintJs BotD, for example version 2, you can contact the plugin creator to notify to update the code. You can also update the code yourself in the file "checker.js" ([Link to checker.json](https://github.com/SurveyGuardian/SurveyGuardian/blob/master/SurveyGuardian/assets/checker.js)) lines 208-232. 
+The plugin includes the [FingerprintJS BotD framework](https://github.com/fingerprintjs/BotD) in version 1 (v1) for detecting bots.
+If there are updates to version 1, the newest code will automatically be loaded. If there is a major update of FingerprintJs BotD, for example, version 2, you can contact us to notify to update the code. You can also update the code yourself in the file "checker.js" ([Link to checker.json](https://github.com/SurveyGuardian/SurveyGuardian/blob/master/SurveyGuardian/assets/checker.js)) lines 208-232. 
 
 ### Extend the number of attention check questions
-If you want to delete, add or edit attention check questions, navigate to "SurveyGuardian > assets > attentionchecks.json" ([Link to attentionchecks.json](https://github.com/SurveyGuardian/SurveyGuardian/blob/master/SurveyGuardian/assets/attentionchecks.json)). Create new entries in the same pattern. The current attention checks are:
+If you want to delete, add, or edit attention check questions, navigate to "SurveyGuardian > assets > attentionchecks.json" ([Link to attentionchecks.json](https://github.com/SurveyGuardian/SurveyGuardian/blob/master/SurveyGuardian/assets/attentionchecks.json)). Create new entries in the same pattern. The current attention checks are:
 
 | **Question (ID)**                                                                                                                                                                                                                                                                                          | **Answers (ID)**                                                                 | **Correct Answer ID** |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|-----------------------|

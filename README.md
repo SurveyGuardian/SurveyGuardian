@@ -48,6 +48,9 @@ If you want to delete, add, or edit attention check questions, navigate to "Surv
 The development of the plugin for LimeSurvey platform faced difficulties due to limitations in accessing variables such as participant ID. A workaround was implemented to enable identification and reference the results of attention checks and bot detection. However, this detour resulted in a less user-friendly experience and a decrease in productivity. The security of the work is also limited as JavaScript is needed to execute procedures, communicate, and save data. Attention check questions are inserted randomly by the participant's browser, which could be manipulated, and results of the attention checks and bot detection are stored in the local storage of the browser, which could also be manipulated.
 Finally, the _Enter how many groups your survey structure contains_ must be filled out, as LimeSurvey does not provide a simple way to access this number.
 
+## Requirements
+For using the plugin, LimeSurvey version 5.3.14 or higher needs to be installed on a web server. Therefore the server needs at least 250 MB of disk space, the relational database system MySQL version 5.5.3 or later, and PHP version 7.2.5 or later. To access the LimeSurvey back-end, a screen resolution of at least 1280px * 1024px is needed to manage the plugin [14]. The plugin needs to be installed (in Configuration > Plugins) on the administrator page and then be activated.
+
 ## License notice
 FingerprintJS BotD licensed under the MIT license. <a href="https://github.com/fingerprintjs/BotD/blob/main/LICENSE">More details</a><br>
 CryptoJS licensed under the MIT license. <a href="https://github.com/brix/crypto-js/blob/develop/LICENSE">More details.</a><br>

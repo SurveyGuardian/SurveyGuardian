@@ -1,8 +1,8 @@
 
 # SurveyGuardian Plugin for LimeSurvey 
 
-HTML: <a href="https://joss.theoj.org/papers/3ade6c86724b2eb8efba1559cb8cc368"><img src="https://joss.theoj.org/papers/3ade6c86724b2eb8efba1559cb8cc368/status.svg"></a>
-Markdown: [![status](https://joss.theoj.org/papers/3ade6c86724b2eb8efba1559cb8cc368/status.svg)](https://joss.theoj.org/papers/3ade6c86724b2eb8efba1559cb8cc368)
+
+[![status](https://joss.theoj.org/papers/3ade6c86724b2eb8efba1559cb8cc368/status.svg)](https://joss.theoj.org/papers/3ade6c86724b2eb8efba1559cb8cc368)
 
 ## Description
 When using online-surveys for research there are disadvantages decreasing the quality of data, such as inattentive participants or participants who cheat or have undesirable behavior.

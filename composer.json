@@ -1,0 +1,22 @@
+{
+	"name": "php-actions/SurveyGuardian",
+	"description": "SurveyGuardian tests",
+
+	"require-dev": {
+		"ext-curl": "*",
+		"ext-dom": "*",
+		"ext-json": "*",
+		"ext-sqlite3": "*",
+		"phpunit/phpunit": "9.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"App\\Test\\": "test"
+		}
+	}
+}

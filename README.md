@@ -59,3 +59,7 @@ jQuery licensed under the MIT license. <a href="https://github.com/jquery/jquery
 ChartJS licensed under the MIT license. <a href="https://github.com/chartjs/Chart.js/blob/master/LICENSE.md">More details</a>
 
 
+## Usage of [Crypto.js](https://hondahelix120.medium.com/a-brief-explanation-of-crypto-js-1b84845ef8f5) and .min Files
+We used Crypto.JS to encrypt the data when transferring it from the plug-in to a platform we are developing. The plugin as such doesn't need it, but it's still there because of the platform.
+The two JavaScript files were minified (.min), i.e. compressed as a single line for performance reasons.
+

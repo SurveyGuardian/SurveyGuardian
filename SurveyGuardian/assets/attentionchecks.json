@@ -128,5 +128,53 @@
          ],
          "correct": 3
       }
-   }
+   },
+      {
+      "id": 10,
+      "details": {
+         "question": "I swim across the Atlantic Ocean to get to work every day",
+         "answers": [
+            "yes",
+            "no"
+         ],
+         "correct": 2
+      }
+   },
+   {
+      "id": 11,
+      "details": {
+         "question": "I work fourteen months a year",
+         "answers": [
+            "No, this is not true of me",
+            "Yes, this is true of me"
+         ],
+         "correct": 1
+      }
+   },
+   {
+      "id": 12,
+      "details": {
+         "question": "I have never used a computer",
+         "answers": [
+            "No, this is not true of me",
+            "Yes, this is true of me"
+         ],
+         "correct": 1
+      }
+   },
+   {
+      "id": 13,
+      "details": {
+         "question": "This is a simple question. You do not need to be a wine connoisseur or avid beer drinker to answer. When asked for your favorite drink, you need to select carrot juice.<br><br>> Based on the text above, what is your favorite drink?",
+         "answers": [
+            "Wine",
+            "Beer",
+            "Vodka",
+            "Whiskey",
+            "Carrot Juice",
+            "Other"
+         ],
+         "correct": 5
+      }
+   },
 ]

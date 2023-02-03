@@ -1,5 +1,5 @@
 {
-	"name": "php-actions/SurveyGuardian",
+	"name": "SurveyGuardian/SurveyGuardian",
 	"description": "SurveyGuardian tests",
 
 	"require-dev": {

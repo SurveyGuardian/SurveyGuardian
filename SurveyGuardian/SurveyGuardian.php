@@ -104,7 +104,7 @@ class surveyGuardian extends PluginBase
     private function registerNeededAssets()
     {
         App()->clientScript->registerScriptFile(App()->assetManager->publish(dirname(__FILE__) . '/assets/jquery-3.6.0.min.js'));
-        App()->clientScript->registerScriptFile(App()->assetManager->publish(dirname(__FILE__) . '/assets/crypto-js.min.js'));
+        // App()->clientScript->registerScriptFile(App()->assetManager->publish(dirname(__FILE__) . '/assets/crypto-js.min.js'));
         App()->clientScript->registerScriptFile(App()->assetManager->publish(dirname(__FILE__) . '/assets/checker.js'));
     }
 

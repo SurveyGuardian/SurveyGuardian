@@ -357,15 +357,15 @@ function encodeMsg() {
 
 // encrypt the message sent to SurveyHunter
 function encryptMsg(msg) {
-   var key = CryptoJS.enc.Hex.parse("0123456789abcdef0123456789abcdef");
-   var iv = CryptoJS.enc.Hex.parse("abcdef9876543210abcdef9876543210");
+   // var key = CryptoJS.enc.Hex.parse("0123456789abcdef0123456789abcdef");
+   // var iv = CryptoJS.enc.Hex.parse("abcdef9876543210abcdef9876543210");
 
-   var encrypted = CryptoJS.AES.encrypt(msg, key, {
-      iv,
-      padding: CryptoJS.pad.ZeroPadding
-   });
+   // var encrypted = CryptoJS.AES.encrypt(msg, key, {
+   //    iv,
+   //    padding: CryptoJS.pad.ZeroPadding
+   // });
 
-   return encrypted.toString();
+   // return encrypted.toString();
 }
 
 // set the proof of failure to localstorage

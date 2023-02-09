@@ -1,6 +1,8 @@
 
 # SurveyGuardian Plugin for LimeSurvey 
 
+[![DOI](https://zenodo.org/badge/593142241.svg)](https://zenodo.org/badge/latestdoi/593142241)
+
 ## Description
 When using online-surveys for research there are disadvantages decreasing the quality of data, such as inattentive participants or participants who cheat or have undesirable behavior.
 To counteract this problem, we created a plugin for the online-survey platform [LimeSurvey](https://www.limesurvey.org/), which automatically detects participants being inattentive with the help of automated display and evaluation of attention checks or participants executing non-human actions. The filtered participants could then be excluded from the survey data to maintain the study's validity and prevent the participant from getting a reward. This enables the researchers to have an execution cost of the online survey based on valid participation only. Study participants who violate the rules multiple times can also be excluded from participating in further surveys.
@@ -62,3 +64,21 @@ ChartJS licensed under the MIT license. <a href="https://github.com/chartjs/Char
 We used Crypto.JS to encrypt the data when transferring it from the plug-in to a platform we are developing. The plugin as such doesn't need it, but it's still there because of the platform.
 The two JavaScript files were minified (.min), i.e. compressed as a single line for performance reasons.
 
+
+## Citation
+
+
+If you find this package useful, please cite it using: 
+
+```
+{
+@misc{colley2023surveyguardian,
+  author = {Colley, Mark and Gruler, Lukas and Rukzio, Enrico},
+  title = {SurveyGuardian: Improving Online Surveys for Research by Detecting Inattentiveness and Undesirable Behavio},
+  howpublished = {Software},
+  url = {https://zenodo.org/badge/latestdoi/593142241},
+  year = {2023},
+  note = {https://github.com/SurveyGuardian/SurveyGuardian}
+}
+}
+```

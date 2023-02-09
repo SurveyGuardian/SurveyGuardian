@@ -1,9 +1,6 @@
 
 # SurveyGuardian Plugin for LimeSurvey 
 
-
-[![status](https://joss.theoj.org/papers/3ade6c86724b2eb8efba1559cb8cc368/status.svg)](https://joss.theoj.org/papers/3ade6c86724b2eb8efba1559cb8cc368)
-
 ## Description
 When using online-surveys for research there are disadvantages decreasing the quality of data, such as inattentive participants or participants who cheat or have undesirable behavior.
 To counteract this problem, we created a plugin for the online-survey platform [LimeSurvey](https://www.limesurvey.org/), which automatically detects participants being inattentive with the help of automated display and evaluation of attention checks or participants executing non-human actions. The filtered participants could then be excluded from the survey data to maintain the study's validity and prevent the participant from getting a reward. This enables the researchers to have an execution cost of the online survey based on valid participation only. Study participants who violate the rules multiple times can also be excluded from participating in further surveys.

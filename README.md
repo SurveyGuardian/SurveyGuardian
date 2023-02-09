@@ -71,7 +71,7 @@ The two JavaScript files were minified (.min), i.e. compressed as a single line 
 If you find this package useful, please cite it using: 
 
 ```
-{
+
 @misc{colley2023surveyguardian,
   author = {Colley, Mark and Gruler, Lukas and Rukzio, Enrico},
   title = {SurveyGuardian: Improving Online Surveys for Research by Detecting Inattentiveness and Undesirable Behavio},
@@ -79,6 +79,5 @@ If you find this package useful, please cite it using:
   url = {https://zenodo.org/badge/latestdoi/593142241},
   year = {2023},
   note = {https://github.com/SurveyGuardian/SurveyGuardian}
-}
 }
 ```

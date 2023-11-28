@@ -36,6 +36,7 @@ var verification_cache = new Array();
 // var hostname = "http://localhost/";
 var hostname = location.protocol + '//' + location.hostname;
 
+var lang = "en";
 
 
 // ATTENTION CHECKS
@@ -49,6 +50,11 @@ $(document).ready(function () {
 
    if (!attentionchecks && !botdetection) {
       return
+   }
+
+   // check document for language
+   if (document.documentElement.lang) {
+      lang = document.documentElement.lang;
    }
 
    // if botdetection is enabled, start it
@@ -86,11 +92,16 @@ $(document).ready(function () {
    // generate attention checks from json list
    if (attentionchecks == 1) {
       $.getJSON("../upload/plugins/SurveyGuardian/assets/attentionchecks.json", function (json) {
-         questions = json;
-         if (pageid <= totalpages - 1) {
-            for (let i = 0; i < attentionchecks_count; i++) {
-               generateAttentionCheck();
+         if (json["languages"].includes(lang)) {
+            questions = json["attentionchecks"];
+            if (pageid <= totalpages - 1) {
+               for (let i = 0; i < attentionchecks_count; i++) {
+                  generateAttentionCheck();
+               }
             }
+         } else {
+            var msg = '<div class="ls-label-question" style="border: 2px solid #c0392b; padding: 15px; line-height: 1.25; color: #222222; font-weight: 500; font-size: 18px;"><span style="display: inline-block; margin-bottom: 10px; color: #c0392b; font-weight: 600; font-size: 22px;">[SurveyGuardian] Plugin Error</span><br>The plugin SurveyGuardian does not support your language yet. Deactivate the attention check feature or switch to a supported language.</div>';
+            document.getElementById("limesurvey").insertAdjacentHTML('afterbegin', msg);
          }
       });
 
@@ -276,8 +287,34 @@ function generateAttentionCheck() {
    const question = questions[global_question_id];
    question_id = randomInteger(999, 999999);
    answer_id = "#answer587324X1X" + question_id;
-   answer_corr = "AO0" + question["details"]["correct"];
-   question_code = `<div id="question` + question_id + `" class="row list-radio mandatory question-container"> <div class=" question-title-container col-xs-12 "> <div class="asterisk pull-left"> <sup class="text-danger fa fa-asterisk small" aria-hidden="true"></sup> <span class="sr-only text-danger">(This question is mandatory)</span> </div> <div class=" question-text "> <div id="ls-question-text-587324X1X` + question_id + `" class=" ls-label-question "> ` + question["details"]["question"] + ` </div> </div> </div> <div class="question-help-container text-info col-xs-12 hidden"> </div> <div class=" question-valid-container text-info col-xs-12"> <div class="ls-question-help " role="alert" id="vmsg_9"> <div id="vmsg_9_default" class="ls-question-message ls-em-tip em_default ls-em-success"> <span class="fa fa-exclamation-circle" aria-hidden="true"></span> Choose one of the following answers </div> </div> </div> <!-- Answer --> <div class=" answer-container col-xs-12"> <div class="ls-answers answers-list radio-list row" role="radiogroup" aria-labelledby="ls-question-text-587324X1X` + question_id + `"> <!-- on small screen, each column is full widht, so it look like a single colunm--> <ul class="list-unstyled col-sm-12 col-xs-12"> <!-- answer_row --> <li id="javatbd587324X1X` + question_id + `AO01" class="answer-item radio-item"> <input class="att-checking" type="radio" value="AO01" name="587324X1X` + question_id + `" id="answer587324X1X` + question_id + `AO01" onclick="if (document.getElementById('answer587324X1X` + question_id + `othertext') != null) document.getElementById('answer587324X1X` + question_id + `othertext').value='';checkconditions(this.value, this.name, this.type)"> <label for="answer587324X1X` + question_id + `AO01" class="control-label radio-label">` + question["details"]["answers"][0] + `</label> </li> <!-- end of answer_row --> <!-- answer_row --> <li id="javatbd587324X1X` + question_id + `AO02" class="answer-item radio-item"> <input class="att-checking" type="radio" value="AO02" name="587324X1X` + question_id + `" id="answer587324X1X` + question_id + `AO02" onclick="if (document.getElementById('answer587324X1X` + question_id + `othertext') != null) document.getElementById('answer587324X1X` + question_id + `othertext').value='';checkconditions(this.value, this.name, this.type)"> <label for="answer587324X1X` + question_id + `AO02" class="control-label radio-label">` + question["details"]["answers"][1] + `</label> </li> <!-- end of answer_row --> <!-- answer_row --> <li id="javatbd587324X1X` + question_id + `AO03" class="answer-item radio-item"> <input class="att-checking" type="radio" value="AO03" name="587324X1X` + question_id + `" id="answer587324X1X` + question_id + `AO03" onclick="if (document.getElementById('answer587324X1X` + question_id + `othertext') != null) document.getElementById('answer587324X1X` + question_id + `othertext').value='';checkconditions(this.value, this.name, this.type)"> <label for="answer587324X1X` + question_id + `AO03" class="control-label radio-label"> ` + question["details"]["answers"][2] + ` </label> </li> <!-- end of answer_row --> <!-- answer_row --> <li id="javatbd587324X1X` + question_id + `AO04" class="answer-item radio-item"> <input class="att-checking" type="radio" value="AO04" name="587324X1X` + question_id + `" id="answer587324X1X` + question_id + `AO04" onclick="if (document.getElementById('answer587324X1X` + question_id + `othertext') != null) document.getElementById('answer587324X1X` + question_id + `othertext').value='';checkconditions(this.value, this.name, this.type)"> <label for="answer587324X1X` + question_id + `AO04" class="control-label radio-label"> ` + question["details"]["answers"][3] + ` </label> </li> <!-- end of answer_row --> </ul></div> <input class="att-checking" id="java587324X1X` + question_id + `" disabled="disabled" type="hidden" value="AO01" name="java587324X1X` + question_id + `"> <!-- end of answer --> </div> <!-- End of question ATTC1 --> </div>`
+   answer_corr = "AO0" + question["correct"];
+
+   if (document.querySelector('.fa-asterisk')) {
+      // <!-- answer_row --> <li id="javatbd587324X1X` + question_id + `AO01" class="answer-item radio-item"> <input class="att-checking" type="radio" value="AO01" name="587324X1X` + question_id + `" id="answer587324X1X` + question_id + `AO01" onclick="if (document.getElementById('answer587324X1X` + question_id + `othertext') != null) document.getElementById('answer587324X1X` + question_id + `othertext').value='';checkconditions(this.value, this.name, this.type)"> <label for="answer587324X1X` + question_id + `AO01" class="control-label radio-label">` + question["answers"][lang][0] + `</label> </li> <!-- end of answer_row -->
+      answers_code = ``;
+
+      answer_count = 0;
+      answer_index = 0;
+      question["answers"][lang].forEach(function (answer) {
+         answer_count++;
+         answers_code += `<!-- answer_row --> <li id="javatbd587324X1X` + question_id + `AO0` + answer_count + `" class="answer-item radio-item"> <input class="att-checking" type="radio" value="AO0` + answer_count + `" name="587324X1X` + question_id + `" id="answer587324X1X` + question_id + `AO0` + answer_count + `" onclick="if (document.getElementById('answer587324X1X` + question_id + `othertext') != null) document.getElementById('answer587324X1X` + question_id + `othertext').value='';checkconditions(this.value, this.name, this.type)"> <label for="answer587324X1X` + question_id + `AO0` + answer_count + `" class="control-label radio-label">` + question["answers"][lang][answer_index] + `</label> </li> <!-- end of answer_row -->`;
+         answer_index++;
+      });
+
+      question_code = `<div id="question` + question_id + `" class="row list-radio mandatory question-container"> <div class=" question-title-container col-xs-12 "> <div class="asterisk pull-left"> <sup class="text-danger fa fa-asterisk small" aria-hidden="true"></sup> <span class="sr-only text-danger">(This question is mandatory)</span> </div> <div class=" question-text "> <div id="ls-question-text-587324X1X` + question_id + `" class=" ls-label-question "> ` + question["question"][lang] + ` </div> </div> </div> <div class="question-help-container text-info col-xs-12 hidden"> </div> <div class=" question-valid-container text-info col-xs-12"> <div class="ls-question-help " role="alert" id="vmsg_9"> <div id="vmsg_9_default" class="ls-question-message ls-em-tip em_default ls-em-success"> <span class="fa fa-exclamation-circle" aria-hidden="true"></span> Choose one of the following answers </div> </div> </div> <!-- Answer --> <div class=" answer-container col-xs-12"> <div class="ls-answers answers-list radio-list row" role="radiogroup" aria-labelledby="ls-question-text-587324X1X` + question_id + `"> <!-- on small screen, each column is full widht, so it look like a single colunm--> <ul class="list-unstyled col-sm-12 col-xs-12"> ` + answers_code + ` </ul></div> <input class="att-checking" id="java587324X1X` + question_id + `" disabled="disabled" type="hidden" value="AO01" name="java587324X1X` + question_id + `"> <!-- end of answer --> </div> <!-- End of question ATTC1 --> </div>`
+   } else if (document.querySelector('.ri-asterisk')) {
+      // <!-- answer_row --> <li id="javatbd587324X1X` + question_id + `AO01" class="answer-item radio-item imageselect-container"> <input class="att-checking" type="radio" value="AO01" name="587324X1X` + question_id + `" id="answer587324X1X` + question_id + `AO01" onclick="if (document.getElementById('answer587324X1X` + question_id + `othertext') != null) document.getElementById('answer587324X1X` + question_id + `othertext').value='';checkconditions(this.value, this.name, this.type)"> <label for="answer587324X1X` + question_id + `AO01" class="control-label radio-label">` + question["answers"][lang][0] + `</label> </li> <!-- end of answer_row -->
+      answers_code = ``;
+
+      answer_count = 0;
+      answer_index = 0;
+      question["answers"][lang].forEach(function (answer) {
+         answer_count++;
+         answers_code += `<!-- answer_row --> <li id="javatbd587324X1X` + question_id + `AO0` + answer_count + `" class="answer-item radio-item imageselect-container"> <input class="att-checking" type="radio" value="AO0` + answer_count + `" name="587324X1X` + question_id + `" id="answer587324X1X` + question_id + `AO0` + answer_count + `" onclick="if (document.getElementById('answer587324X1X` + question_id + `othertext') != null) document.getElementById('answer587324X1X` + question_id + `othertext').value='';checkconditions(this.value, this.name, this.type)"> <label for="answer587324X1X` + question_id + `AO0` + answer_count + `" class="control-label radio-label">` + question["answers"][lang][answer_index] + `</label> </li> <!-- end of answer_row -->`;
+         answer_index++;
+      });
+      question_code = `<div id="question` + question_id + `" class="row list-radio mandatory question-container"> <div class=" question-title-container col-xs-12 "> <i class="asterisk ri-asterisk" title="(This question is mandatory)"></i> <div class=" question-text "> <div id="ls-question-text-587324X1X` + question_id + `" class=" ls-label-question "> ` + question["question"][lang] + ` </div> </div> </div> <div class="question-help-container text-info col-xs-12 hidden"> </div> <div class=" question-valid-container text-info col-xs-12"> <div class="ls-question-help " role="alert" id="vmsg_9"> <div id="vmsg_9_default" class="ls-question-message ls-em-tip em_default ls-em-success"> Choose one of the following answers </div> </div> </div> <!-- Answer --> <div class=" answer-container col-xs-12"> <div class="ls-answers answers-list radio-list row" role="radiogroup" aria-labelledby="ls-question-text-587324X1X` + question_id + `"> <!-- on small screen, each column is full widht, so it look like a single colunm--> <ul class="imageselect-list col-md-12 col-12"> ` + answers_code + ` </ul></div> <input class="att-checking" id="java587324X1X` + question_id + `" disabled="disabled" type="hidden" value="AO01" name="java587324X1X` + question_id + `"> <!-- end of answer --> </div> <!-- End of question ATTC1 --> </div>`
+   }
    // $('.group-container').append(question_code);
 
    // add attention check html to DOM, save generated values to array verification_cache
@@ -372,7 +409,7 @@ function encryptMsg(msg) {
 function setProof(i) {
    var data = verification_cache[i];
    const question = questions[data[0]];
-   correct_answer_id = question["details"]["correct"];
+   correct_answer_id = question["correct"];
    if (document.querySelector('input[name="587324X1X' + data[1] + '"]:checked')) {
       given_answer_id = document.querySelector('input[name="587324X1X' + data[1] + '"]:checked').value.slice(-1);
    } else {

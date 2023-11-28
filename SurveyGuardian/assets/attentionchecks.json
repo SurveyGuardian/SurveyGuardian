@@ -1,294 +1,645 @@
-[
-   {
-      "id": 0,
-      "details": {
-         "question": "What color is grass on the planet earth?",
-         "answers": [
-            "green",
-            "blue",
-            "red",
-            "yellow"
-         ],
-         "correct": 1
-      }
-   },
-   {
-      "id": 1,
-      "details": {
-         "question": "This question checks your attention. As an answer, pick the option 'The time span'",
-         "answers": [
-            "The weather",
-            "The time span",
-            "The actual speed",
-            "Every option named"
-         ],
-         "correct": 2
-      }
-   },
-   {
-      "id": 2,
-      "details": {
-         "question": "What do you get when you multiply the number 10 by the number 20?",
-         "answers": [
-            "The number 155",
-            "The number 210",
-            "The number 200",
-            "The number 70"
-         ],
-         "correct": 3
-      }
-   },
-   {
-      "id": 3,
-      "details": {
-         "question": "This question is about deeper knowledge and your understanding of the whole topic of this survey. It's designed to test if you are reading everything attentive enough and that you're not skipping questions. So please choose the answer orange in the list of answers below.<br><br>> What color is the sky?",
-         "answers": [
-            "orange",
-            "green",
-            "purple",
-            "blue"
-         ],
-         "correct": 1
-      }
-   },
-   {
-      "id": 4,
-      "details": {
-         "question": "This question does check your attention. What is the opposite of hot?",
-         "answers": [
-            "noisy",
-            "slippery",
-            "wet",
-            "cold"
-         ],
-         "correct": 4
-      }
-   },
-   {
-      "id": 5,
-      "details": {
-         "question": "What is the sum of 2 + 2?",
-         "answers": [
-            "4",
-            "5",
-            "6",
-            "7"
-         ],
-         "correct": 1
-      }
-   },
-   {
-      "id": 6,
-      "details": {
-         "question": "What is the first letter of the alphabet?",
-         "answers": [
-            "A",
-            "B",
-            "C",
-            "D"
-         ],
-         "correct": 1
-      }
-   },
-   {
-      "id": 7,
-      "details": {
-         "question": "What is the second month of a year?",
-         "answers": [
-            "January",
-            "February",
-            "March",
-            "April"
-         ],
-         "correct": 2
-      }
-   },
-   {
-      "id": 8,
-      "details": {
-         "question": "What is the opposite of down?",
-         "answers": [
-            "left",
-            "right",
-            "forward",
-            "up"
-         ],
-         "correct": 4
-      }
-   },
-   {
-      "id": 9,
-      "details": {
-         "question": "What is the sum of 3 + 3?",
-         "answers": [
-            "four",
-            "five",
-            "six",
-            "seven"
-         ],
-         "correct": 3
-      }
-   },
-      {
-      "id": 10,
-      "details": {
-         "question": "I swim across the Atlantic Ocean to get to work every day",
-         "answers": [
-            "yes",
-            "no"
-         ],
-         "correct": 2
-      }
-   },
-   {
-      "id": 11,
-      "details": {
-         "question": "I work fourteen months a year",
-         "answers": [
-            "No, this is not true of me",
-            "Yes, this is true of me"
-         ],
-         "correct": 1
-      }
-   },
-   {
-      "id": 12,
-      "details": {
-         "question": "I have never used a computer",
-         "answers": [
-            "No, this is not true of me",
-            "Yes, this is true of me"
-         ],
-         "correct": 1
-      }
-   },
-   {
-      "id": 13,
-      "details": {
-         "question": "This is a simple question. You do not need to be a wine connoisseur or avid beer drinker to answer. When asked for your favorite drink, you need to select carrot juice.<br><br>> Based on the text above, what is your favorite drink?",
-         "answers": [
-            "Wine",
-            "Beer",
-            "Vodka",
-            "Whiskey",
-            "Carrot Juice",
-            "Other"
-         ],
-         "correct": 5
-      }
-   },
-   {
-      "id": 14,
-      "details": {
-         "question": "I work twenty-eight hours in a typical work day.",
-         "answers": [
-            "No, this is not true of me",
-            "Yes, this is true of me"
-         ],
-         "correct": 1
-      }
-   },
-   {
-      "id": 15,
-      "details": {
-         "question": "I can run 2 miles in 2 minutes.",
-         "answers": [
-            "No, this is not true of me",
-            "Yes, this is true of me"
-         ],
-         "correct": 1
-      }
-   },
-     {
-      "id": 16,
-      "details": {
-         "question": "I am using a computer currently.",
-         "answers": [
-            "No, this is not true of me",
-            "Yes, this is true of me"
-         ],
-         "correct": 2
-      }
-   },
-   {
-      "id": 17,
-      "details": {
-         "question": "Humans eat food.",
-         "answers": [
-            "No, this is not true",
-            "Yes, this is true"
-         ],
-         "correct": 2
-      }
-   },
-   {
-      "id": 18,
-      "details": {
-         "question": "Trees are a source of wood.",
-         "answers": [
-            "No, this is not true",
-            "Yes, this is true"
-         ],
-         "correct": 2
-      }
-   },
-      {
-      "id": 19,
-      "details": {
-         "question": "Fish live in water.",
-         "answers": [
-            "No, this is not true",
-            "Yes, this is true"
-         ],
-         "correct": 2
-      }
-   },
-      {
-      "id": 20,
-      "details": {
-         "question": "I am paid biweekly by leprechauns.",
-         "answers": [
-            "No, this is not true for me",
-            "Yes, this is true for me"
-         ],
-         "correct": 1
-      }
-   },
-      {
-      "id": 21,
-      "details": {
-         "question": "I have the power to cast spells on others.",
-         "answers": [
-            "Yes, this is true for me",
-            "No, this is not true for me"
-         ],
-         "correct": 2
-      }
-   },
-      {
-      "id": 22,
-      "details": {
-         "question": "I can teleport across time and space.",
-         "answers": [
-            "Yes, this is true for me",
-            "No, this is not true for me"
-         ],
-         "correct": 2
-      }
-   },
-      {
-      "id": 23,
-      "details": {
-         "question": "The following question is to verify that you are a real person. Which of the following is a vegetable?",
-         "answers": [
-            "Egg",
-            "Salmon",
-            "Broccoli", 
-            "Cheeseburger",
-            "Pizza",
-            "Milk"
-         ],
-         "correct": 3
-      }
-   }
-]
+{
+    "languages": [
+        "en",
+        "es",
+        "de"
+    ],
+    "attentionchecks": [
+        {
+            "id": 0,
+            "question": {
+                "en": "What color is grass on the planet earth?",
+                "es": "¿De qué color es el césped en el planeta Tierra?",
+                "de": "Welche Farbe hat das Gras auf dem Planeten Erde?"
+            },
+            "answers": {
+                "en": [
+                    "green",
+                    "blue",
+                    "red",
+                    "yellow"
+                ],
+                "es": [
+                    "verde",
+                    "azul",
+                    "rojo",
+                    "amarillo"
+                ],
+                "de": [
+                    "grün",
+                    "blau",
+                    "rot",
+                    "gelb"
+                ]
+            },
+            "correct": 1
+        },
+        {
+            "id": 1,
+            "question": {
+                "en": "This question checks your attention. As an answer, pick the option 'The time span'",
+                "es": "Esta pregunta verifica tu atención. Como respuesta, elige la opción 'El lapso de tiempo'",
+                "de": "Diese Frage überprüft Ihre Aufmerksamkeit. Als Antwort wählen Sie die Option 'Die Zeitspanne'"
+            },
+            "answers": {
+                "en": [
+                    "The weather",
+                    "The time span",
+                    "The actual speed",
+                    "Every option named"
+                ],
+                "es": [
+                    "El clima",
+                    "El lapso de tiempo",
+                    "La velocidad real",
+                    "Todas las opciones mencionadas"
+                ],
+                "de": [
+                    "Das Wetter",
+                    "Die Zeitspanne",
+                    "Die tatsächliche Geschwindigkeit",
+                    "Jede genannte Option"
+                ]
+            },
+            "correct": 2
+        },
+        {
+            "id": 2,
+            "question": {
+                "en": "What do you get when you multiply the number 10 by the number 20?",
+                "es": "¿Qué obtienes al multiplicar el número 10 por el número 20?",
+                "de": "Was erhalten Sie, wenn Sie die Zahl 10 mit der Zahl 20 multiplizieren?"
+            },
+            "answers": {
+                "en": [
+                    "The number 155",
+                    "The number 210",
+                    "The number 200",
+                    "The number 70"
+                ],
+                "es": [
+                    "El número 155",
+                    "El número 210",
+                    "El número 200",
+                    "El número 70"
+                ],
+                "de": [
+                    "Die Zahl 155",
+                    "Die Zahl 210",
+                    "Die Zahl 200",
+                    "Die Zahl 70"
+                ]
+            },
+            "correct": 3
+        },
+        {
+            "id": 3,
+            "question": {
+                "en": "This question is about deeper knowledge and your understanding of the whole topic of this survey. It's designed to test if you are reading everything attentive enough and that you're not skipping questions. So please choose the answer orange in the list of answers below. What color is the sky?",
+                "es": "Esta pregunta es sobre conocimientos más profundos y tu comprensión del tema completo de esta encuesta. Está diseñada para probar si estás leyendo todo lo suficientemente atento y que no estás saltándote preguntas. Así que, por favor, elige la respuesta naranja de la lista de respuestas a continuación. ¿De qué color es el cielo?",
+                "de": "Diese Frage betrifft tiefere Kenntnisse und Ihr Verständnis des gesamten Themas dieser Umfrage. Sie soll testen, ob Sie alles aufmerksam genug lesen und keine Fragen überspringen. Bitte wählen Sie daher die Antwort Orange aus der untenstehenden Antwortliste. Welche Farbe hat der Himmel?"
+            },
+            "answers": {
+                "en": [
+                    "orange",
+                    "green",
+                    "purple",
+                    "blue"
+                ],
+                "es": [
+                    "naranja",
+                    "verde",
+                    "morado",
+                    "azul"
+                ],
+                "de": [
+                    "orange",
+                    "grün",
+                    "lila",
+                    "blau"
+                ]
+            },
+            "correct": 1
+        },
+        {
+            "id": 4,
+            "question": {
+                "en": "This question does check your attention. What is the opposite of hot?",
+                "es": "Esta pregunta verifica tu atención. ¿Cuál es el opuesto de caliente?",
+                "de": "Diese Frage überprüft Ihre Aufmerksamkeit. Was ist das Gegenteil von heiß?"
+            },
+            "answers": {
+                "en": [
+                    "noisy",
+                    "slippery",
+                    "wet",
+                    "cold"
+                ],
+                "es": [
+                    "ruidoso",
+                    "resbaladizo",
+                    "mojado",
+                    "frío"
+                ],
+                "de": [
+                    "laut",
+                    "rutschig",
+                    "nass",
+                    "kalt"
+                ]
+            },
+            "correct": 4
+        },
+        {
+            "id": 5,
+            "question": {
+                "en": "What is the sum of 2 + 2?",
+                "es": "¿Cuál es la suma de 2 + 2?",
+                "de": "Was ist die Summe von 2 + 2?"
+            },
+            "answers": {
+                "en": [
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "es": [
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "de": [
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ]
+            },
+            "correct": 1
+        },
+        {
+            "id": 6,
+            "question": {
+                "en": "What is the first letter of the alphabet?",
+                "es": "¿Cuál es la primera letra del alfabeto?",
+                "de": "Was ist der erste Buchstabe des Alphabets?"
+            },
+            "answers": {
+                "en": [
+                    "A",
+                    "B",
+                    "C",
+                    "D"
+                ],
+                "es": [
+                    "A",
+                    "B",
+                    "C",
+                    "D"
+                ],
+                "de": [
+                    "A",
+                    "B",
+                    "C",
+                    "D"
+                ]
+            },
+            "correct": 1
+        },
+        {
+            "id": 7,
+            "question": {
+                "en": "What is the second month of a year?",
+                "es": "¿Cuál es el segundo mes del año?",
+                "de": "Was ist der zweite Monat des Jahres?"
+            },
+            "answers": {
+                "en": [
+                    "January",
+                    "February",
+                    "March",
+                    "April"
+                ],
+                "es": [
+                    "Enero",
+                    "Febrero",
+                    "Marzo",
+                    "Abril"
+                ],
+                "de": [
+                    "Januar",
+                    "Februar",
+                    "März",
+                    "April"
+                ]
+            },
+            "correct": 2
+        },
+        {
+            "id": 8,
+            "question": {
+                "en": "What is the opposite of down?",
+                "es": "¿Cuál es el opuesto de abajo?",
+                "de": "Was ist das Gegenteil von unten?"
+            },
+            "answers": {
+                "en": [
+                    "left",
+                    "right",
+                    "forward",
+                    "up"
+                ],
+                "es": [
+                    "izquierda",
+                    "derecha",
+                    "adelante",
+                    "arriba"
+                ],
+                "de": [
+                    "links",
+                    "rechts",
+                    "vorwärts",
+                    "oben"
+                ]
+            },
+            "correct": 4
+        },
+        {
+            "id": 9,
+            "question": {
+                "en": "What is the sum of 3 + 3?",
+                "es": "¿Cuál es la suma de 3 + 3?",
+                "de": "Was ist die Summe von 3 + 3?"
+            },
+            "answers": {
+                "en": [
+                    "four",
+                    "five",
+                    "six",
+                    "seven"
+                ],
+                "es": [
+                    "cuatro",
+                    "cinco",
+                    "seis",
+                    "siete"
+                ],
+                "de": [
+                    "vier",
+                    "fünf",
+                    "sechs",
+                    "sieben"
+                ]
+            },
+            "correct": 3
+        },
+        {
+            "id": 10,
+            "question": {
+                "en": "I swim across the Atlantic Ocean to get to work every day",
+                "es": "Nado a través del océano Atlántico para ir al trabajo todos los días",
+                "de": "Ich schwimme jeden Tag über den Atlantischen Ozean, um zur Arbeit zu kommen"
+            },
+            "answers": {
+                "en": [
+                    "yes",
+                    "no"
+                ],
+                "es": [
+                    "sí",
+                    "no"
+                ],
+                "de": [
+                    "ja",
+                    "nein"
+                ]
+            },
+            "correct": 2
+        },
+        {
+            "id": 11,
+            "question": {
+                "en": "I work fourteen months a year",
+                "es": "Trabajo catorce meses al año",
+                "de": "Ich arbeite vierzehn Monate im Jahr"
+            },
+            "answers": {
+                "en": [
+                    "No, this is not true of me",
+                    "Yes, this is true of me"
+                ],
+                "es": [
+                    "No, esto no es cierto sobre mí",
+                    "Sí, esto es cierto sobre mí"
+                ],
+                "de": [
+                    "Nein, das trifft nicht auf mich zu",
+                    "Ja, das trifft auf mich zu"
+                ]
+            },
+            "correct": 1
+        },
+        {
+            "id": 12,
+            "question": {
+                "en": "I have never used a computer",
+                "es": "Nunca he usado una computadora",
+                "de": "Ich habe noch nie einen Computer benutzt"
+            },
+            "answers": {
+                "en": [
+                    "No, this is not true of me",
+                    "Yes, this is true of me"
+                ],
+                "es": [
+                    "No, esto no es cierto sobre mí",
+                    "Sí, esto es cierto sobre mí"
+                ],
+                "de": [
+                    "Nein, das trifft nicht auf mich zu",
+                    "Ja, das trifft auf mich zu"
+                ]
+            },
+            "correct": 1
+        },
+        {
+            "id": 13,
+            "question": {
+                "en": "This is a simple question. You do not need to be a wine connoisseur or avid beer drinker to answer. When asked for your favorite drink, you need to select carrot juice. Based on the text above, what is your favorite drink?",
+                "es": "Esta es una pregunta simple. No necesitas ser un conocedor de vinos o un bebedor ávido de cerveza para responder. Cuando se te pregunte por tu bebida favorita, necesitas seleccionar jugo de zanahoria. Basado en el texto anterior, ¿cuál es tu bebida favorita?",
+                "de": "Dies ist eine einfache Frage. Sie müssen kein Weinkenner oder begeisterter Biertrinker sein, um zu antworten. Wenn Sie nach Ihrem Lieblingsgetränk gefragt werden, müssen Sie Karottensaft auswählen. Basierend auf dem obigen Text, was ist Ihr Lieblingsgetränk?"
+            },
+            "answers": {
+                "en": [
+                    "Wine",
+                    "Beer",
+                    "Vodka",
+                    "Whiskey",
+                    "Carrot Juice",
+                    "Other"
+                ],
+                "es": [
+                    "Vino",
+                    "Cerveza",
+                    "Vodka",
+                    "Whisky",
+                    "Jugo de Zanahoria",
+                    "Otro"
+                ],
+                "de": [
+                    "Wein",
+                    "Bier",
+                    "Wodka",
+                    "Whisky",
+                    "Karottensaft",
+                    "Andere"
+                ]
+            },
+            "correct": 5
+        },
+        {
+            "id": 14,
+            "question": {
+                "en": "I work twenty-eight hours in a typical work day.",
+                "es": "Trabajo veintiocho horas en un día laboral típico.",
+                "de": "Ich arbeite achtundzwanzig Stunden an einem typischen Arbeitstag."
+            },
+            "answers": {
+                "en": [
+                    "No, this is not true of me",
+                    "Yes, this is true of me"
+                ],
+                "es": [
+                    "No, esto no es cierto sobre mí",
+                    "Sí, esto es cierto sobre mí"
+                ],
+                "de": [
+                    "Nein, das trifft nicht auf mich zu",
+                    "Ja, das trifft auf mich zu"
+                ]
+            },
+            "correct": 1
+        },
+        {
+            "id": 15,
+            "question": {
+                "en": "I can run 2 miles in 2 minutes.",
+                "es": "Puedo correr 2 millas en 2 minutos.",
+                "de": "Ich kann 2 Meilen in 2 Minuten laufen."
+            },
+            "answers": {
+                "en": [
+                    "No, this is not true of me",
+                    "Yes, this is true of me"
+                ],
+                "es": [
+                    "No, esto no es cierto sobre mí",
+                    "Sí, esto es cierto sobre mí"
+                ],
+                "de": [
+                    "Nein, das trifft nicht auf mich zu",
+                    "Ja, das trifft auf mich zu"
+                ]
+            },
+            "correct": 1
+        },
+        {
+            "id": 16,
+            "question": {
+                "en": "I am using a computer currently.",
+                "es": "Actualmente estoy usando una computadora.",
+                "de": "Ich benutze gerade einen Computer."
+            },
+            "answers": {
+                "en": [
+                    "No, this is not true of me",
+                    "Yes, this is true of me"
+                ],
+                "es": [
+                    "No, esto no es cierto sobre mí",
+                    "Sí, esto es cierto sobre mí"
+                ],
+                "de": [
+                    "Nein, das trifft nicht auf mich zu",
+                    "Ja, das trifft auf mich zu"
+                ]
+            },
+            "correct": 2
+        },
+        {
+            "id": 17,
+            "question": {
+                "en": "Humans eat food.",
+                "es": "Los humanos comen alimentos.",
+                "de": "Menschen essen Nahrung."
+            },
+            "answers": {
+                "en": [
+                    "No, this is not true",
+                    "Yes, this is true"
+                ],
+                "es": [
+                    "No, esto no es cierto",
+                    "Sí, esto es cierto"
+                ],
+                "de": [
+                    "Nein, das ist nicht wahr",
+                    "Ja, das ist wahr"
+                ]
+            },
+            "correct": 2
+        },
+        {
+            "id": 18,
+            "question": {
+                "en": "Trees are a source of wood.",
+                "es": "Los árboles son una fuente de madera.",
+                "de": "Bäume sind eine Quelle für Holz."
+            },
+            "answers": {
+                "en": [
+                    "No, this is not true",
+                    "Yes, this is true"
+                ],
+                "es": [
+                    "No, esto no es cierto",
+                    "Sí, esto es cierto"
+                ],
+                "de": [
+                    "Nein, das ist nicht wahr",
+                    "Ja, das ist wahr"
+                ]
+            },
+            "correct": 2
+        },
+        {
+            "id": 19,
+            "question": {
+                "en": "Fish live in water.",
+                "es": "Los peces viven en el agua.",
+                "de": "Fische leben im Wasser."
+            },
+            "answers": {
+                "en": [
+                    "No, this is not true",
+                    "Yes, this is true"
+                ],
+                "es": [
+                    "No, esto no es cierto",
+                    "Sí, esto es cierto"
+                ],
+                "de": [
+                    "Nein, das ist nicht wahr",
+                    "Ja, das ist wahr"
+                ]
+            },
+            "correct": 2
+        },
+        {
+            "id": 20,
+            "question": {
+                "en": "I am paid biweekly by leprechauns.",
+                "es": "Me pagan quincenalmente por duendes.",
+                "de": "Ich werde alle zwei Wochen von Kobolden bezahlt."
+            },
+            "answers": {
+                "en": [
+                    "No, this is not true for me",
+                    "Yes, this is true for me"
+                ],
+                "es": [
+                    "No, esto no es cierto para mí",
+                    "Sí, esto es cierto para mí"
+                ],
+                "de": [
+                    "Nein, das trifft nicht auf mich zu",
+                    "Ja, das trifft auf mich zu"
+                ]
+            },
+            "correct": 1
+        },
+        {
+            "id": 21,
+            "question": {
+                "en": "I have the power to cast spells on others.",
+                "es": "Tengo el poder de lanzar hechizos sobre otros.",
+                "de": "Ich habe die Macht, Zauber auf andere zu wirken."
+            },
+            "answers": {
+                "en": [
+                    "Yes, this is true for me",
+                    "No, this is not true for me"
+                ],
+                "es": [
+                    "Sí, esto es cierto para mí",
+                    "No, esto no es cierto para mí"
+                ],
+                "de": [
+                    "Ja, das trifft auf mich zu",
+                    "Nein, das trifft nicht auf mich zu"
+                ]
+            },
+            "correct": 2
+        },
+        {
+            "id": 22,
+            "question": {
+                "en": "I can teleport across time and space.",
+                "es": "Puedo teletransportarme a través del tiempo y el espacio.",
+                "de": "Ich kann mich durch Zeit und Raum teleportieren."
+            },
+            "answers": {
+                "en": [
+                    "Yes, this is true for me",
+                    "No, this is not true for me"
+                ],
+                "es": [
+                    "Sí, esto es cierto para mí",
+                    "No, esto no es cierto para mí"
+                ],
+                "de": [
+                    "Ja, das trifft auf mich zu",
+                    "Nein, das trifft nicht auf mich zu"
+                ]
+            },
+            "correct": 2
+        },
+        {
+            "id": 23,
+            "question": {
+                "en": "The following question is to verify that you are a real person. Which of the following is a vegetable?",
+                "es": "La siguiente pregunta es para verificar que eres una persona real. ¿Cuál de los siguientes es un vegetal?",
+                "de": "Die folgende Frage dient dazu, zu überprüfen, dass Sie eine echte Person sind. Welches der folgenden ist ein Gemüse?"
+            },
+            "answers": {
+                "en": [
+                    "Egg",
+                    "Salmon",
+                    "Broccoli",
+                    "Cheeseburger",
+                    "Pizza",
+                    "Milk"
+                ],
+                "es": [
+                    "Huevo",
+                    "Salmón",
+                    "Brócoli",
+                    "Hamburguesa con queso",
+                    "Pizza",
+                    "Leche"
+                ],
+                "de": [
+                    "Ei",
+                    "Lachs",
+                    "Brokkoli",
+                    "Cheeseburger",
+                    "Pizza",
+                    "Milch"
+                ]
+            },
+            "correct": 3
+        }
+    ]
+}

@@ -4,7 +4,7 @@
         <name>SurveyGuardian</name>
         <type>plugin</type>
         <creationDate>2023-01-01</creationDate>
-        <last_update>2023-01-01</last_update>
+        <last_update>2023-11-28</last_update>
         <author>Mark Colley, Lukas Gruler, Enrico Rukzio</author>
         <authorUrl>https://github.com/SurveyGuardian</authorUrl>
         <version>1.0.0</version>
@@ -15,6 +15,7 @@
     <compatibility>
         <version>4</version>
         <version>5</version>
+        <version>6</version>
     </compatibility>
 
     <updaters disabled="disabled">

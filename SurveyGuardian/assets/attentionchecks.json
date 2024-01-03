@@ -2,7 +2,10 @@
     "languages": [
         "en",
         "es",
-        "de"
+        "de",
+        "fr",
+        "ru",
+        "zh"
     ],
     "attentionchecks": [
         {
@@ -10,7 +13,10 @@
             "question": {
                 "en": "What color is grass on the planet earth?",
                 "es": "¿De qué color es el césped en el planeta Tierra?",
-                "de": "Welche Farbe hat das Gras auf dem Planeten Erde?"
+                "de": "Welche Farbe hat das Gras auf dem Planeten Erde?",
+                "fr": "De quelle couleur est l'herbe sur la planète Terre?",
+                "ru": "Какого цвета трава на планете Земля?",
+                "zh": "地球上的草是什么颜色的？"
             },
             "answers": {
                 "en": [
@@ -30,6 +36,24 @@
                     "blau",
                     "rot",
                     "gelb"
+                ],
+                "fr": [
+                    "vert",
+                    "bleu",
+                    "rouge",
+                    "jaune"
+                ],
+                "ru": [
+                    "зелёный",
+                    "синий",
+                    "красный",
+                    "жёлтый"
+                ],
+                "zh": [
+                    "绿色",
+                    "蓝色",
+                    "红色",
+                    "黄色"
                 ]
             },
             "correct": 1
@@ -39,7 +63,10 @@
             "question": {
                 "en": "This question checks your attention. As an answer, pick the option 'The time span'",
                 "es": "Esta pregunta verifica tu atención. Como respuesta, elige la opción 'El lapso de tiempo'",
-                "de": "Diese Frage überprüft Ihre Aufmerksamkeit. Als Antwort wählen Sie die Option 'Die Zeitspanne'"
+                "de": "Diese Frage überprüft Ihre Aufmerksamkeit. Als Antwort wählen Sie die Option 'Die Zeitspanne'",
+                "fr": "Cette question vérifie votre attention. Comme réponse, choisissez l'option 'La durée'",
+                "ru": "Этот вопрос проверяет ваше внимание. В качестве ответа выберите вариант 'Промежуток времени'",
+                "zh": "这个问题是为了检查你的注意力。作为答案，请选择'时间跨度'选项"
             },
             "answers": {
                 "en": [
@@ -59,6 +86,24 @@
                     "Die Zeitspanne",
                     "Die tatsächliche Geschwindigkeit",
                     "Jede genannte Option"
+                ],
+                "fr": [
+                    "Le temps",
+                    "La durée",
+                    "La vitesse réelle",
+                    "Chaque option nommée"
+                ],
+                "ru": [
+                    "Погода",
+                    "Промежуток времени",
+                    "Фактическая скорость",
+                    "Каждый названный вариант"
+                ],
+                "zh": [
+                    "天气",
+                    "时间跨度",
+                    "实际速度",
+                    "每个提到的选项"
                 ]
             },
             "correct": 2
@@ -68,7 +113,10 @@
             "question": {
                 "en": "What do you get when you multiply the number 10 by the number 20?",
                 "es": "¿Qué obtienes al multiplicar el número 10 por el número 20?",
-                "de": "Was erhalten Sie, wenn Sie die Zahl 10 mit der Zahl 20 multiplizieren?"
+                "de": "Was erhalten Sie, wenn Sie die Zahl 10 mit der Zahl 20 multiplizieren?",
+                "fr": "Que obtenez-vous lorsque vous multipliez le nombre 10 par le nombre 20?",
+                "ru": "Что вы получите, если умножить число 10 на число 20?",
+                "zh": "当你将数字10乘以数字20时，你会得到什么？"
             },
             "answers": {
                 "en": [
@@ -88,6 +136,24 @@
                     "Die Zahl 210",
                     "Die Zahl 200",
                     "Die Zahl 70"
+                ],
+                "fr": [
+                    "Le nombre 155",
+                    "Le nombre 210",
+                    "Le nombre 200",
+                    "Le nombre 70"
+                ],
+                "ru": [
+                    "Число 155",
+                    "Число 210",
+                    "Число 200",
+                    "Число 70"
+                ],
+                "zh": [
+                    "数字155",
+                    "数字210",
+                    "数字200",
+                    "数字70"
                 ]
             },
             "correct": 3
@@ -97,7 +163,10 @@
             "question": {
                 "en": "This question is about deeper knowledge and your understanding of the whole topic of this survey. It's designed to test if you are reading everything attentive enough and that you're not skipping questions. So please choose the answer orange in the list of answers below. What color is the sky?",
                 "es": "Esta pregunta es sobre conocimientos más profundos y tu comprensión del tema completo de esta encuesta. Está diseñada para probar si estás leyendo todo lo suficientemente atento y que no estás saltándote preguntas. Así que, por favor, elige la respuesta naranja de la lista de respuestas a continuación. ¿De qué color es el cielo?",
-                "de": "Diese Frage betrifft tiefere Kenntnisse und Ihr Verständnis des gesamten Themas dieser Umfrage. Sie soll testen, ob Sie alles aufmerksam genug lesen und keine Fragen überspringen. Bitte wählen Sie daher die Antwort Orange aus der untenstehenden Antwortliste. Welche Farbe hat der Himmel?"
+                "de": "Diese Frage betrifft tiefere Kenntnisse und Ihr Verständnis des gesamten Themas dieser Umfrage. Sie soll testen, ob Sie alles aufmerksam genug lesen und keine Fragen überspringen. Bitte wählen Sie daher die Antwort Orange aus der untenstehenden Antwortliste. Welche Farbe hat der Himmel?",
+                "fr": "Cette question porte sur des connaissances plus approfondies et votre compréhension de l'ensemble du sujet de cette enquête. Elle est conçue pour tester si vous lisez tout assez attentivement et que vous ne sautez pas de questions. Veuillez donc choisir la réponse orange dans la liste ci-dessous. Quelle est la couleur du ciel ?",
+                "ru": "Этот вопрос касается более глубоких знаний и вашего понимания всей темы этого опроса. Он предназначен для проверки того, насколько внимательно вы читаете всё и не пропускаете ли вы вопросы. Пожалуйста, выберите ответ 'оранжевый' из списка ниже. Какого цвета небо?",
+                "zh": "这个问题涉及更深入的知识和你对这次调查整个话题的理解。它旨在测试你是否足够仔细地阅读了所有内容，并且没有跳过问题。因此，请在下面的答案列表中选择'橙色'答案。天空是什么颜色的？"
             },
             "answers": {
                 "en": [
@@ -117,6 +186,24 @@
                     "grün",
                     "lila",
                     "blau"
+                ],
+                "fr": [
+                    "orange",
+                    "vert",
+                    "violet",
+                    "bleu"
+                ],
+                "ru": [
+                    "оранжевый",
+                    "зелёный",
+                    "фиолетовый",
+                    "синий"
+                ],
+                "zh": [
+                    "橙色",
+                    "绿色",
+                    "紫色",
+                    "蓝色"
                 ]
             },
             "correct": 1
@@ -126,7 +213,10 @@
             "question": {
                 "en": "This question does check your attention. What is the opposite of hot?",
                 "es": "Esta pregunta verifica tu atención. ¿Cuál es el opuesto de caliente?",
-                "de": "Diese Frage überprüft Ihre Aufmerksamkeit. Was ist das Gegenteil von heiß?"
+                "de": "Diese Frage überprüft Ihre Aufmerksamkeit. Was ist das Gegenteil von heiß?",
+                "fr": "Cette question vérifie votre attention. Quel est l'opposé de chaud ?",
+                "ru": "Этот вопрос проверяет ваше внимание. Что является противоположностью горячему?",
+                "zh": "这个问题是为了检查你的注意力。什么是热的对立面？"
             },
             "answers": {
                 "en": [
@@ -146,6 +236,24 @@
                     "rutschig",
                     "nass",
                     "kalt"
+                ],
+                "fr": [
+                    "bruyant",
+                    "glissant",
+                    "mouillé",
+                    "froid"
+                ],
+                "ru": [
+                    "шумный",
+                    "скользкий",
+                    "мокрый",
+                    "холодный"
+                ],
+                "zh": [
+                    "吵闹的",
+                    "滑的",
+                    "湿的",
+                    "冷的"
                 ]
             },
             "correct": 4
@@ -155,7 +263,10 @@
             "question": {
                 "en": "What is the sum of 2 + 2?",
                 "es": "¿Cuál es la suma de 2 + 2?",
-                "de": "Was ist die Summe von 2 + 2?"
+                "de": "Was ist die Summe von 2 + 2?",
+                "fr": "Quelle est la somme de 2 + 2 ?",
+                "ru": "Какова сумма 2 + 2?",
+                "zh": "2 加 2 等于多少？"
             },
             "answers": {
                 "en": [
@@ -171,6 +282,24 @@
                     "7"
                 ],
                 "de": [
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "fr": [
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "ru": [
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "zh": [
                     "4",
                     "5",
                     "6",
@@ -184,7 +313,10 @@
             "question": {
                 "en": "What is the first letter of the alphabet?",
                 "es": "¿Cuál es la primera letra del alfabeto?",
-                "de": "Was ist der erste Buchstabe des Alphabets?"
+                "de": "Was ist der erste Buchstabe des Alphabets?",
+                "fr": "Quelle est la première lettre de l'alphabet ?",
+                "ru": "Какая первая буква алфавита?",
+                "zh": "字母表的第一个字母是什么？"
             },
             "answers": {
                 "en": [
@@ -204,6 +336,24 @@
                     "B",
                     "C",
                     "D"
+                ],
+                "fr": [
+                    "A",
+                    "B",
+                    "C",
+                    "D"
+                ],
+                "ru": [
+                    "А",
+                    "Б",
+                    "В",
+                    "Г"
+                ],
+                "zh": [
+                    "A",
+                    "B",
+                    "C",
+                    "D"
                 ]
             },
             "correct": 1
@@ -213,7 +363,10 @@
             "question": {
                 "en": "What is the second month of a year?",
                 "es": "¿Cuál es el segundo mes del año?",
-                "de": "Was ist der zweite Monat des Jahres?"
+                "de": "Was ist der zweite Monat des Jahres?",
+                "fr": "Quel est le deuxième mois de l'année ?",
+                "ru": "Какой второй месяц года?",
+                "zh": "一年中的第二个月是哪个？"
             },
             "answers": {
                 "en": [
@@ -233,6 +386,24 @@
                     "Februar",
                     "März",
                     "April"
+                ],
+                "fr": [
+                    "Janvier",
+                    "Février",
+                    "Mars",
+                    "Avril"
+                ],
+                "ru": [
+                    "Январь",
+                    "Февраль",
+                    "Март",
+                    "Апрель"
+                ],
+                "zh": [
+                    "一月",
+                    "二月",
+                    "三月",
+                    "四月"
                 ]
             },
             "correct": 2
@@ -242,7 +413,10 @@
             "question": {
                 "en": "What is the opposite of down?",
                 "es": "¿Cuál es el opuesto de abajo?",
-                "de": "Was ist das Gegenteil von unten?"
+                "de": "Was ist das Gegenteil von unten?",
+                "fr": "Quel est le contraire de bas ?",
+                "ru": "Что противоположно направлению 'вниз'?",
+                "zh": "“下” 的对立面是什么？"
             },
             "answers": {
                 "en": [
@@ -262,6 +436,24 @@
                     "rechts",
                     "vorwärts",
                     "oben"
+                ],
+                "fr": [
+                    "gauche",
+                    "droite",
+                    "avant",
+                    "haut"
+                ],
+                "ru": [
+                    "влево",
+                    "вправо",
+                    "вперед",
+                    "вверх"
+                ],
+                "zh": [
+                    "左",
+                    "右",
+                    "前",
+                    "上"
                 ]
             },
             "correct": 4
@@ -271,7 +463,10 @@
             "question": {
                 "en": "What is the sum of 3 + 3?",
                 "es": "¿Cuál es la suma de 3 + 3?",
-                "de": "Was ist die Summe von 3 + 3?"
+                "de": "Was ist die Summe von 3 + 3?",
+                "fr": "Quelle est la somme de 3 + 3 ?",
+                "ru": "Какова сумма 3 + 3?",
+                "zh": "3 加 3 等于多少？"
             },
             "answers": {
                 "en": [
@@ -291,6 +486,24 @@
                     "fünf",
                     "sechs",
                     "sieben"
+                ],
+                "fr": [
+                    "quatre",
+                    "cinq",
+                    "six",
+                    "sept"
+                ],
+                "ru": [
+                    "четыре",
+                    "пять",
+                    "шесть",
+                    "семь"
+                ],
+                "zh": [
+                    "四",
+                    "五",
+                    "六",
+                    "七"
                 ]
             },
             "correct": 3
@@ -300,7 +513,10 @@
             "question": {
                 "en": "I swim across the Atlantic Ocean to get to work every day",
                 "es": "Nado a través del océano Atlántico para ir al trabajo todos los días",
-                "de": "Ich schwimme jeden Tag über den Atlantischen Ozean, um zur Arbeit zu kommen"
+                "de": "Ich schwimme jeden Tag über den Atlantischen Ozean, um zur Arbeit zu kommen",
+                "fr": "Je nage à travers l'océan Atlantique pour aller au travail tous les jours",
+                "ru": "Я плыву через Атлантический океан, чтобы добраться до работы каждый день",
+                "zh": "我每天游过大西洋去上班"
             },
             "answers": {
                 "en": [
@@ -314,6 +530,18 @@
                 "de": [
                     "ja",
                     "nein"
+                ],
+                "fr": [
+                    "oui",
+                    "non"
+                ],
+                "ru": [
+                    "да",
+                    "нет"
+                ],
+                "zh": [
+                    "是",
+                    "不是"
                 ]
             },
             "correct": 2
@@ -323,7 +551,10 @@
             "question": {
                 "en": "I work fourteen months a year",
                 "es": "Trabajo catorce meses al año",
-                "de": "Ich arbeite vierzehn Monate im Jahr"
+                "de": "Ich arbeite vierzehn Monate im Jahr",
+                "fr": "Je travaille quatorze mois par an",
+                "ru": "Я работаю четырнадцать месяцев в год",
+                "zh": "我一年工作十四个月"
             },
             "answers": {
                 "en": [
@@ -337,6 +568,18 @@
                 "de": [
                     "Nein, das trifft nicht auf mich zu",
                     "Ja, das trifft auf mich zu"
+                ],
+                "fr": [
+                    "Non, cela n'est pas vrai pour moi",
+                    "Oui, cela est vrai pour moi"
+                ],
+                "ru": [
+                    "Нет, это не верно обо мне",
+                    "Да, это верно обо мне"
+                ],
+                "zh": [
+                    "不，这不是真的",
+                    "是的，这是真的"
                 ]
             },
             "correct": 1
@@ -346,7 +589,10 @@
             "question": {
                 "en": "I have never used a computer",
                 "es": "Nunca he usado una computadora",
-                "de": "Ich habe noch nie einen Computer benutzt"
+                "de": "Ich habe noch nie einen Computer benutzt",
+                "fr": "Je n'ai jamais utilisé d'ordinateur",
+                "ru": "Я никогда не пользовался компьютером",
+                "zh": "我从未使用过电脑"
             },
             "answers": {
                 "en": [
@@ -360,6 +606,18 @@
                 "de": [
                     "Nein, das trifft nicht auf mich zu",
                     "Ja, das trifft auf mich zu"
+                ],
+                "fr": [
+                    "Non, cela n'est pas vrai pour moi",
+                    "Oui, cela est vrai pour moi"
+                ],
+                "ru": [
+                    "Нет, это не верно обо мне",
+                    "Да, это верно обо мне"
+                ],
+                "zh": [
+                    "不，这不是真的",
+                    "是的，这是真的"
                 ]
             },
             "correct": 1
@@ -369,7 +627,10 @@
             "question": {
                 "en": "This is a simple question. You do not need to be a wine connoisseur or avid beer drinker to answer. When asked for your favorite drink, you need to select carrot juice. Based on the text above, what is your favorite drink?",
                 "es": "Esta es una pregunta simple. No necesitas ser un conocedor de vinos o un bebedor ávido de cerveza para responder. Cuando se te pregunte por tu bebida favorita, necesitas seleccionar jugo de zanahoria. Basado en el texto anterior, ¿cuál es tu bebida favorita?",
-                "de": "Dies ist eine einfache Frage. Sie müssen kein Weinkenner oder begeisterter Biertrinker sein, um zu antworten. Wenn Sie nach Ihrem Lieblingsgetränk gefragt werden, müssen Sie Karottensaft auswählen. Basierend auf dem obigen Text, was ist Ihr Lieblingsgetränk?"
+                "de": "Dies ist eine einfache Frage. Sie müssen kein Weinkenner oder begeisterter Biertrinker sein, um zu antworten. Wenn Sie nach Ihrem Lieblingsgetränk gefragt werden, müssen Sie Karottensaft auswählen. Basierend auf dem obigen Text, was ist Ihr Lieblingsgetränk?",
+                "fr": "C'est une question simple. Vous n'avez pas besoin d'être un connaisseur de vin ou un grand buveur de bière pour répondre. Lorsqu'on vous demande quelle est votre boisson préférée, vous devez choisir le jus de carotte. D'après le texte ci-dessus, quelle est votre boisson préférée ?",
+                "ru": "Это простой вопрос. Вам не нужно быть знатоком вина или поклонником пива, чтобы ответить. Когда вас спрашивают о вашем любимом напитке, вы должны выбрать морковный сок. Исходя из текста выше, какой ваш любимый напиток?",
+                "zh": "这是一个简单的问题。您无需是葡萄酒鉴赏家或热衷啤酒饮用者即可回答。当被问及你最喜欢的饮料时，你需要选择胡萝卜汁。根据上文，你最喜欢的饮料是什么？"
             },
             "answers": {
                 "en": [
@@ -395,6 +656,30 @@
                     "Whisky",
                     "Karottensaft",
                     "Andere"
+                ],
+                "fr": [
+                    "Vin",
+                    "Bière",
+                    "Vodka",
+                    "Whisky",
+                    "Jus de Carotte",
+                    "Autre"
+                ],
+                "ru": [
+                    "Вино",
+                    "Пиво",
+                    "Водка",
+                    "Виски",
+                    "Морковный Сок",
+                    "Другое"
+                ],
+                "zh": [
+                    "葡萄酒",
+                    "啤酒",
+                    "伏特加",
+                    "威士忌",
+                    "胡萝卜汁",
+                    "其他"
                 ]
             },
             "correct": 5
@@ -404,7 +689,10 @@
             "question": {
                 "en": "I work twenty-eight hours in a typical work day.",
                 "es": "Trabajo veintiocho horas en un día laboral típico.",
-                "de": "Ich arbeite achtundzwanzig Stunden an einem typischen Arbeitstag."
+                "de": "Ich arbeite achtundzwanzig Stunden an einem typischen Arbeitstag.",
+                "fr": "Je travaille vingt-huit heures dans une journée de travail typique.",
+                "ru": "Я работаю двадцать восемь часов в обычный рабочий день.",
+                "zh": "我在一个典型的工作日工作二十八小时。"
             },
             "answers": {
                 "en": [
@@ -418,6 +706,18 @@
                 "de": [
                     "Nein, das trifft nicht auf mich zu",
                     "Ja, das trifft auf mich zu"
+                ],
+                "fr": [
+                    "Non, cela n'est pas vrai pour moi",
+                    "Oui, cela est vrai pour moi"
+                ],
+                "ru": [
+                    "Нет, это не верно обо мне",
+                    "Да, это верно обо мне"
+                ],
+                "zh": [
+                    "不，这不是真的",
+                    "是的，这是真的"
                 ]
             },
             "correct": 1
@@ -427,7 +727,10 @@
             "question": {
                 "en": "I can run 2 miles in 2 minutes.",
                 "es": "Puedo correr 2 millas en 2 minutos.",
-                "de": "Ich kann 2 Meilen in 2 Minuten laufen."
+                "de": "Ich kann 2 Meilen in 2 Minuten laufen.",
+                "fr": "Je peux courir 2 miles en 2 minutes.",
+                "ru": "Я могу пробежать 2 мили за 2 минуты.",
+                "zh": "我可以在2分钟内跑2英里。"
             },
             "answers": {
                 "en": [
@@ -441,6 +744,18 @@
                 "de": [
                     "Nein, das trifft nicht auf mich zu",
                     "Ja, das trifft auf mich zu"
+                ],
+                "fr": [
+                    "Non, cela n'est pas vrai pour moi",
+                    "Oui, cela est vrai pour moi"
+                ],
+                "ru": [
+                    "Нет, это не верно обо мне",
+                    "Да, это верно обо мне"
+                ],
+                "zh": [
+                    "不，这不是真的",
+                    "是的，这是真的"
                 ]
             },
             "correct": 1
@@ -450,7 +765,10 @@
             "question": {
                 "en": "I am using a computer currently.",
                 "es": "Actualmente estoy usando una computadora.",
-                "de": "Ich benutze gerade einen Computer."
+                "de": "Ich benutze gerade einen Computer.",
+                "fr": "J'utilise actuellement un ordinateur.",
+                "ru": "Я сейчас пользуюсь компьютером.",
+                "zh": "我现在正在使用电脑。"
             },
             "answers": {
                 "en": [
@@ -464,6 +782,18 @@
                 "de": [
                     "Nein, das trifft nicht auf mich zu",
                     "Ja, das trifft auf mich zu"
+                ],
+                "fr": [
+                    "Non, cela n'est pas vrai pour moi",
+                    "Oui, cela est vrai pour moi"
+                ],
+                "ru": [
+                    "Нет, это не верно обо мне",
+                    "Да, это верно обо мне"
+                ],
+                "zh": [
+                    "不，这不是真的",
+                    "是的，这是真的"
                 ]
             },
             "correct": 2
@@ -473,7 +803,10 @@
             "question": {
                 "en": "Humans eat food.",
                 "es": "Los humanos comen alimentos.",
-                "de": "Menschen essen Nahrung."
+                "de": "Menschen essen Nahrung.",
+                "fr": "Les humains mangent de la nourriture.",
+                "ru": "Люди едят пищу.",
+                "zh": "人类吃食物。"
             },
             "answers": {
                 "en": [
@@ -487,6 +820,18 @@
                 "de": [
                     "Nein, das ist nicht wahr",
                     "Ja, das ist wahr"
+                ],
+                "fr": [
+                    "Non, ce n'est pas vrai",
+                    "Oui, c'est vrai"
+                ],
+                "ru": [
+                    "Нет, это не так",
+                    "Да, это так"
+                ],
+                "zh": [
+                    "不，这不是真的",
+                    "是，这是真的"
                 ]
             },
             "correct": 2
@@ -496,7 +841,10 @@
             "question": {
                 "en": "Trees are a source of wood.",
                 "es": "Los árboles son una fuente de madera.",
-                "de": "Bäume sind eine Quelle für Holz."
+                "de": "Bäume sind eine Quelle für Holz.",
+                "fr": "Les arbres sont une source de bois.",
+                "ru": "Деревья являются источником древесины.",
+                "zh": "树木是木材的来源。"
             },
             "answers": {
                 "en": [
@@ -510,6 +858,18 @@
                 "de": [
                     "Nein, das ist nicht wahr",
                     "Ja, das ist wahr"
+                ],
+                "fr": [
+                    "Non, ce n'est pas vrai",
+                    "Oui, c'est vrai"
+                ],
+                "ru": [
+                    "Нет, это не так",
+                    "Да, это так"
+                ],
+                "zh": [
+                    "不，这不是真的",
+                    "是，这是真的"
                 ]
             },
             "correct": 2
@@ -519,7 +879,10 @@
             "question": {
                 "en": "Fish live in water.",
                 "es": "Los peces viven en el agua.",
-                "de": "Fische leben im Wasser."
+                "de": "Fische leben im Wasser.",
+                "fr": "Les poissons vivent dans l'eau.",
+                "ru": "Рыбы живут в воде.",
+                "zh": "鱼生活在水中。"
             },
             "answers": {
                 "en": [
@@ -533,6 +896,18 @@
                 "de": [
                     "Nein, das ist nicht wahr",
                     "Ja, das ist wahr"
+                ],
+                "fr": [
+                    "Non, ce n'est pas vrai",
+                    "Oui, c'est vrai"
+                ],
+                "ru": [
+                    "Нет, это не так",
+                    "Да, это так"
+                ],
+                "zh": [
+                    "不，这不是真的",
+                    "是，这是真的"
                 ]
             },
             "correct": 2
@@ -542,7 +917,10 @@
             "question": {
                 "en": "I am paid biweekly by leprechauns.",
                 "es": "Me pagan quincenalmente por duendes.",
-                "de": "Ich werde alle zwei Wochen von Kobolden bezahlt."
+                "de": "Ich werde alle zwei Wochen von Kobolden bezahlt.",
+                "fr": "Je suis payé toutes les deux semaines par des lutins.",
+                "ru": "Мне каждые две недели платят лепреконы.",
+                "zh": "我每两周被小矮妖支付薪水。"
             },
             "answers": {
                 "en": [
@@ -556,6 +934,18 @@
                 "de": [
                     "Nein, das trifft nicht auf mich zu",
                     "Ja, das trifft auf mich zu"
+                ],
+                "fr": [
+                    "Non, cela n'est pas vrai pour moi",
+                    "Oui, cela est vrai pour moi"
+                ],
+                "ru": [
+                    "Нет, это не относится ко мне",
+                    "Да, это относится ко мне"
+                ],
+                "zh": [
+                    "不，这对我不是真的",
+                    "是的，这对我是真的"
                 ]
             },
             "correct": 1
@@ -565,7 +955,10 @@
             "question": {
                 "en": "I have the power to cast spells on others.",
                 "es": "Tengo el poder de lanzar hechizos sobre otros.",
-                "de": "Ich habe die Macht, Zauber auf andere zu wirken."
+                "de": "Ich habe die Macht, Zauber auf andere zu wirken.",
+                "fr": "J'ai le pouvoir de jeter des sorts sur les autres.",
+                "ru": "У меня есть сила накладывать заклинания на других.",
+                "zh": "我有能力对他人施法。"
             },
             "answers": {
                 "en": [
@@ -579,6 +972,18 @@
                 "de": [
                     "Ja, das trifft auf mich zu",
                     "Nein, das trifft nicht auf mich zu"
+                ],
+                "fr": [
+                    "Oui, c'est vrai pour moi",
+                    "Non, cela n'est pas vrai pour moi"
+                ],
+                "ru": [
+                    "Да, это верно для меня",
+                    "Нет, это не верно для меня"
+                ],
+                "zh": [
+                    "是的，这对我是真的",
+                    "不，这对我不是真的"
                 ]
             },
             "correct": 2
@@ -588,7 +993,10 @@
             "question": {
                 "en": "I can teleport across time and space.",
                 "es": "Puedo teletransportarme a través del tiempo y el espacio.",
-                "de": "Ich kann mich durch Zeit und Raum teleportieren."
+                "de": "Ich kann mich durch Zeit und Raum teleportieren.",
+                "fr": "Je peux me téléporter à travers le temps et l'espace.",
+                "ru": "Я могу телепортироваться сквозь время и пространство.",
+                "zh": "我可以穿越时间和空间进行传送。"
             },
             "answers": {
                 "en": [
@@ -602,6 +1010,18 @@
                 "de": [
                     "Ja, das trifft auf mich zu",
                     "Nein, das trifft nicht auf mich zu"
+                ],
+                "fr": [
+                    "Oui, c'est vrai pour moi",
+                    "Non, cela n'est pas vrai pour moi"
+                ],
+                "ru": [
+                    "Да, это верно для меня",
+                    "Нет, это не верно для меня"
+                ],
+                "zh": [
+                    "是的，这对我是真的",
+                    "不，这对我不是真的"
                 ]
             },
             "correct": 2
@@ -611,7 +1031,10 @@
             "question": {
                 "en": "The following question is to verify that you are a real person. Which of the following is a vegetable?",
                 "es": "La siguiente pregunta es para verificar que eres una persona real. ¿Cuál de los siguientes es un vegetal?",
-                "de": "Die folgende Frage dient dazu, zu überprüfen, dass Sie eine echte Person sind. Welches der folgenden ist ein Gemüse?"
+                "de": "Die folgende Frage dient dazu, zu überprüfen, dass Sie eine echte Person sind. Welches der folgenden ist ein Gemüse?",
+                "fr": "La question suivante est pour vérifier que vous êtes une vraie personne. Lequel des suivants est un légume ?",
+                "ru": "Следующий вопрос предназначен для проверки того, что вы реальный человек. Какой из следующих является овощем?",
+                "zh": "以下问题用于验证您是真人。以下哪项是蔬菜？"
             },
             "answers": {
                 "en": [
@@ -637,6 +1060,30 @@
                     "Cheeseburger",
                     "Pizza",
                     "Milch"
+                ],
+                "fr": [
+                    "Œuf",
+                    "Saumon",
+                    "Brocoli",
+                    "Cheeseburger",
+                    "Pizza",
+                    "Lait"
+                ],
+                "ru": [
+                    "Яйцо",
+                    "Лосось",
+                    "Брокколи",
+                    "Чизбургер",
+                    "Пицца",
+                    "Молоко"
+                ],
+                "zh": [
+                    "鸡蛋",
+                    "三文鱼",
+                    "西兰花",
+                    "芝士汉堡",
+                    "比萨",
+                    "牛奶"
                 ]
             },
             "correct": 3
